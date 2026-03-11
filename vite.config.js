@@ -59,6 +59,7 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
       components: resolve(__dirname, 'src/components'),
       layouts: resolve(__dirname, 'src/layouts'),
+      partials: resolve(__dirname, 'src/partials'),
       views: resolve(__dirname, 'src/views'),
       styles: resolve(__dirname, 'src/styles'),
       images: resolve(__dirname, 'src/assets/images'),
@@ -85,6 +86,7 @@ export default defineConfig({
     },
   },
   build: {
+    cssCodeSplit: false,
     manifest: true,
     outDir: resolve(__dirname, 'build'),
     rollupOptions: {

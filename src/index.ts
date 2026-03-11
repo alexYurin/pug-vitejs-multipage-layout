@@ -1,16 +1,5 @@
-// app style settings
-import './styles/root.scss'
-
-// app packages
-import './components'
-import './layouts'
-import './partials'
-
-// app views
-import './views'
-
 import * as Components from './components'
-import BaseComponent from './components/Base'
+import BaseComponent from './components/base/index'
 import { Store } from './services'
 
 export type AppState = {

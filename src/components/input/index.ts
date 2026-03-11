@@ -1,5 +1,3 @@
-import BaseComponent from '@/components/Base'
-
-import './styles.scss'
+import BaseComponent from '@/components/base/index'
 
 export default class Input extends BaseComponent {}

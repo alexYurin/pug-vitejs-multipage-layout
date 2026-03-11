@@ -16,6 +16,15 @@ $theme-base-dark: (
 );
 
 $theme-base-light: (
+  primary: clr.$purple,
+  secondary: clr.$purple-dark,
+  accent-dark-shadow: clr.$purple-dark-shadow,
+  accents-dark-deep: clr.$purple-dark-deep,
+  accent-gray: clr.$gray,
+  accent-gray-light: clr.$gray-light,
+  accent-white: clr.$white,
+  accent-muted: clr.$purple-muted,
+  accent-black: clr.$purple-black,
   drop: clr.$transparent,
 );
 
